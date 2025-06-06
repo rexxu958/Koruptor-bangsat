@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Garuda Telah Dimakan Tikus</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      font-family: 'Georgia', serif;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #ffcc00;
+      font-size: 2.5em;
+      margin-top: 20px;
+      text-shadow: 2px 2px #000;
+    }
+
+    .poem-img {
+      margin-top: 30px;
+      max-width: 90%;
+      height: auto;
+      box-shadow: 0 0 10px #000;
+      border: 4px solid #fff;
+    }
+
+    audio {
+      display: none;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <audio autoplay loop>
+    <source src="https://files.catbox.moe/gblxko.mp3" type="audio/mpeg">
+    Browser Anda tidak mendukung audio.
+  </audio>
+
+  <div class="container">
+    <h1>Garuda Telah Dimakan Tikus</h1>
+    <img class="poem-img" src="https://files.catbox.moe/165kdc.jpg" alt="Puisi Negeri yang Patah Sayapnya"/>
+    <footer>© 2025 - Suara Rakyat</footer>
+  </div>
+
+</body>
+</html>
